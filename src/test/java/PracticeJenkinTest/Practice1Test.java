@@ -42,9 +42,7 @@ public class Practice1Test {
 			 WebDriverManager.chromedriver().setup();
 			 driver=new ChromeDriver();
 			 break;
-	      }*/
-
-		//2nd change from b1
+	      }*
 		driver.get("http://localhost:8888");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
