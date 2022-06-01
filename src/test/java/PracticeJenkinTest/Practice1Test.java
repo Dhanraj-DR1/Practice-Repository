@@ -44,7 +44,7 @@ public class Practice1Test {
 			 break;
 	      }*/
 		 //changes from branch1
-		//c
+		//changes from branch2
 		driver.get("http://localhost:8888");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
